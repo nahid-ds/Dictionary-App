@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Dictionary & Translator</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<nav>
+<h2>📘 Dictionary & Translator</h2>
+<div>
+<a href='index.html'>Home</a>
+<a href='about.html'>About</a>
+</div>
+</nav>
+
+<div class='card'>
+<h2>Dictionary (English)</h2>
+<input id='word' placeholder='Enter English word'>
+<button onclick='searchWord()'>Search</button>
+<div id='dictionary'></div>
+</div>
+
+<div class='card'>
+<h2>Translator</h2>
+<select id='lang'>
+<option value='en|bn'>English ➜ Bangla</option>
+<option value='bn|en'>Bangla ➜ English</option>
+</select><br><br>
+<textarea id='text' rows='4' placeholder='Type text'></textarea><br>
+<button onclick='translateText()'>Translate</button>
+<div id='translation'></div>
+</div>
+
+<script src='script.js'></script>
+</body>
+</html>
