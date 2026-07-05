@@ -1,0 +1,1 @@
+# Dictionary & Translator\nBuilt with HTML, CSS and JavaScript only.
